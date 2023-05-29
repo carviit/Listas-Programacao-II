@@ -1,0 +1,31 @@
+package Exercicio_05;
+
+public class Siena implements CarroSedan {
+
+    private String cor;
+    private int quantidadeDePortas;
+    private String anoFabricacao;
+    private String modelo;
+
+    public Siena(String cor, int quantidadeDePortas, String anoFabricacao, String modelo) {
+
+        this.cor = cor;
+        this.quantidadeDePortas = quantidadeDePortas;
+        this.anoFabricacao = anoFabricacao;
+        this.modelo = modelo;
+
+    }
+
+    @Override
+    public void exibirInfoSedan() {
+
+        System.out.println("\n======= S I E N A =======\n");
+
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Quantidade de Portas: " + this.quantidadeDePortas);
+        System.out.println("Ano de Fabricação: " + this.anoFabricacao);
+        System.out.println("Modelo: " + this.modelo);
+
+    }
+
+}

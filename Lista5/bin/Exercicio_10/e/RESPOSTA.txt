@@ -1,0 +1,1 @@
+Podemos notar que como as excessões lançadas são do tipo RuntimeException e essas excessões são não verificadas (unchecked) portanto quem chamar a calculadora não irá precisar tratar essas excessões, caso ocorra uma dessas excessões a mensagem de erro será exibida e o programa encerrará.
